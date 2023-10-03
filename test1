@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Cool Website</title>
+  <style>
+    /* Add some style to the elements */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+    }
+    h1 {
+      color: white;
+      background-color: #4CAF50;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      background-color: #F0F0F0;
+      padding: 10px;
+    }
+    nav a {
+      color: black;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #4CAF50;
+    }
+    main {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 20px;
+    }
+    main img {
+      width: 300px;
+      height: 200px;
+    }
+    main p {
+      width: 80%;
+      text-align: justify;
+    }
+    footer {
+      background-color: #F0F0F0;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <h1>My Cool Website</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+  </nav>
+  <main>
+    <img src="https://www.bing.com/th?id=OIP.7Z9yX3qQ2sYw7n6mZ8f9jgHaEK&pid=Api&rs=1" alt="A cool image">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis leo quis nisi consequat aliquet. Morbi id lacus vitae augue aliquet tincidunt. Fusce quis nisl ut nisi ullamcorper lacinia. Quisque vitae lorem sit amet leo sagittis sagittis. Donec quis nunc ut lorem malesuada tincidunt. Suspendisse potenti. Cras sed sapien id lorem consequat sollicitudin. Nunc euismod, leo et ultrices tincidunt, massa eros blandit nisl, quis ultrices sapien justo ac leo.</p>
+  </main>
+  <footer>
+    <p>© 2023 My Cool Website. All rights reserved.</p>
+  </footer>
+</body>
+</html>
